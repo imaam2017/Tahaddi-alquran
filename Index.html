@@ -1,0 +1,78 @@
+ممتاز! الآن سنضع أول نسخة من تطبيق تحدي القرآن بإذن الله.
+
+انسخ الكود التالي كاملاً والصقه في مساحة الكتابة:
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>تحدي القرآن</title>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background: #f3f6ef;
+  text-align: center;
+  padding: 20px;
+  color: #174b37;
+}
+header {
+  background: #174b37;
+  color: white;
+  padding: 25px;
+  border-radius: 18px;
+}
+h1 { margin: 5px; }
+.card {
+  background: white;
+  padding: 22px;
+  margin: 18px auto;
+  border-radius: 16px;
+  max-width: 420px;
+  box-shadow: 0 3px 12px #0001;
+}
+button {
+  background: #174b37;
+  color: white;
+  border: none;
+  padding: 14px 22px;
+  margin: 8px;
+  border-radius: 10px;
+  font-size: 17px;
+}
+</style>
+</head>
+<body>
+<header>
+<h1>تحدي القرآن</h1>
+<p>بالقرآن نرتقي</p>
+</header>
+<div class="card">
+<h2>مرحباً بكم في تحدي القرآن</h2>
+<p>مسابقة قرآنية تجمعنا على حفظ كتاب الله وإتقانه.</p>
+</div>
+<div class="card">
+<h3>اختر الجزء</h3>
+<button onclick="choose('جزء عمّ')">جزء عمّ</button>
+<button onclick="choose('جزء تبارك')">جزء تبارك</button>
+<button onclick="choose('جزء قد سمع')">جزء قد سمع</button>
+<p id="result">اختر الجزء للبدء</p>
+</div>
+<script>
+function choose(part) {
+ document.getElementById("result").innerText =
+ "لقد اخترت: " + part + "، بالتوفيق!";
+}
+</script>
+</body>
+</html>
+
+بعد لصق الكود
+
+* اضغط Commit changes.
+* اترك رسالة الحفظ كما هي.
+* اضغط Commit changes مرة أخرى للتأكيد.
+
+أخبرني عندما تنتهي من الحفظ.
+
+بعدها سنجعل التطبيق يعمل على الإنترنت ونضيف إليه نظام الأسئلة والمنافسة بين أعضاء الفريق.
